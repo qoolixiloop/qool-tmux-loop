@@ -34,7 +34,7 @@
 available in my repository folder: src/tmux-startup
 
 
-# Instruction using tmux (and vim)
+# Instructions for using tmux (and vim)
 * download tmux (on Ubuntu)
   * $ sudo apt install tmux
 * put my downloaded tmux startup script in a folder (/afolder) 
@@ -52,7 +52,7 @@ available in my repository folder: src/tmux-startup
   * $ tmux -ls
   * $ tmux kill-session -t <mySession>
 
-## other useful tmux commands
+## Other useful tmux commands
 * if you are in a multipane window and want your pane to fill the whole screen
   you can toogle with the following key strokes
   * Ctrl-B z
