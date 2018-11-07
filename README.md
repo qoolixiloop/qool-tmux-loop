@@ -12,7 +12,7 @@
   * but you prefer to have your open files organized 
 * because you code in several computer languages
   * but you prefer one single development environment (use vim)
-* because you want to start a pairprogram session
+* because you want to start a pairprogramming session
   * but have no idea on how to do that
 
 
@@ -27,7 +27,7 @@
 
 
 # Download my tmux startup script
-available repository folder: src/
+available in my repository folder: src/tmux-startup
 
 
 # Instruction using tmux (and vim)
@@ -61,13 +61,13 @@ available repository folder: src/
 
 
 # Screenshots of tmux
-* ![image of tmux with some python code](pictures/tmux_showing_py)
+* ![image of tmux with some python code](pictures/tmux_showing_py.png)
 
-* ![image of tmux with filemanager mc](pictures/tmux_showing_mc)
+* ![image of tmux with filemanager mc](pictures/tmux_showing_mc.png)
 
 
 ------------------------
-qoolixiloop 7. Nov. 2018
+qoolixiloop, 7. Nov. 2018
  
 
 
