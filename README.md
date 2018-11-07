@@ -18,7 +18,11 @@
 
 ### How qoolixiloop intends to make his friends productive
 * you will get my tmux startup script written in shell code
-  * this will startup a multiwindow session in a second  
+  * this will startup a multiwindow session in a second 
+  * you can and will of course adapt it to your individual needs. But be aware
+    that the script is sent as a one liner to your shell. Therefore even small
+    syntax errors like e.g lagging spaces or even trying to comment the code 
+    will not work out.  
 * you will get links to pair programming tools (use tmate, or wemux)
   * this will protect you from insecure solutions you may find on the internet
 * you will get links to a simple less secure pairprogramming solution
@@ -44,6 +48,14 @@ available in my repository folder: src/tmux-startup
 * to stop the tmux session go to any shell
   * $ tmux -ls
   * $ tmux kill-session -t <mySession>
+
+## other useful tmux commands
+* if you are in a multipane window and want your pane to fill the whole screen
+  you can toogle with the following key strokes
+  * Ctrl-B z
+* in case you accidentally hit Ctrl-z and it shows your shell promt you can go
+  back to the foreground by entering 
+  * $ fg
 
 
 # Instruction using tmate (and tmux and vim)

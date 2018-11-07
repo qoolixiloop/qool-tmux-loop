@@ -9,93 +9,93 @@
 tmux new-session -s "$1" -n '1-MC' 'mc' \; \
 new-window -n '1-B1' \; \
   select-pane -t 0 \; \
-  send-keys 'cd /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
+  send-keys "cd $HOME" C-m \; \
 new-window -n '2-B1' \; \
   select-pane -t 0 \; \
   split-window -h -p 50 \; \
     select-pane -t 0 \; \
-    send-keys 'cd /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
+    send-keys "cd $HOME" C-m \; \
     select-pane -t 1 \; \
-    send-keys 'cd /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
+    send-keys "cd $HOME" C-m \; \
 new-window -n '2-B2' \; \
   select-pane -t 0 \; \
   split-window -h -p 50 \; \
     select-pane -t 0 \; \
-    send-keys 'cd /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
+    send-keys "cd $HOME" C-m \; \
     select-pane -t 1 \; \
-    send-keys 'cd /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
+    send-keys "cd $HOME" C-m \; \
 new-window -n '2-C1' \; \
   select-pane -t 0 \; \
   split-window -h -p 35 \; \
     select-pane -t 0 \; \
     send-keys 'vim' C-m \; \
-    send-keys ':Explore /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
-    send-keys ':lcd /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
+    send-keys ":Explore $HOME" C-m \; \
+    send-keys ":lcd $HOME" C-m \; \
     select-pane -t 1 \; \
-    send-keys 'cd /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
+    send-keys "cd $HOME" C-m \; \
 new-window -n '2-C2' \; \
   select-pane -t 0 \; \
   split-window -h -p 35 \; \
     select-pane -t 0 \; \
     send-keys 'vim' C-m \; \
-    send-keys ':Explore /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
-    send-keys ':lcd /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
+    send-keys ":Explore $HOME" C-m \; \
+    send-keys ":lcd $HOME" C-m \; \
     select-pane -t 1 \; \
-    send-keys 'cd /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
+    send-keys "cd $HOME" C-m \; \
 new-window -n '2-C3' \; \
   select-pane -t 0 \; \
   split-window -h -p 35 \; \
     select-pane -t 0 \; \
     send-keys 'vim' C-m \; \
-    send-keys ':Explore /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
-    send-keys ':lcd /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
+    send-keys ":Explore $HOME" C-m \; \
+    send-keys ":lcd $HOME" C-m \; \
     select-pane -t 1 \; \
-    send-keys 'cd /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
+    send-keys "cd $HOME" C-m \; \
 new-window -n '2-C4' \; \
   select-pane -t 0 \; \
   split-window -h -p 35 \; \
     select-pane -t 0 \; \
     send-keys 'vim' C-m \; \
-    send-keys ':Explore /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
-    send-keys ':lcd /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
+    send-keys ":Explore $HOME" C-m \; \
+    send-keys ":lcd $HOME" C-m \; \
     select-pane -t 1 \; \
-    send-keys 'cd /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
+    send-keys "cd $HOME" C-m \; \
 new-window -n '2-C5' \; \
   select-pane -t 0 \; \
   split-window -h -p 35 \; \
     select-pane -t 0 \; \
     send-keys 'vim' C-m \; \
-    send-keys ':Explore /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
-    send-keys ':lcd /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
+    send-keys ":Explore $HOME" C-m \; \
+    send-keys ":lcd $HOME" C-m \; \
     select-pane -t 1 \; \
-    send-keys 'cd /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
+    send-keys "cd $HOME" C-m \; \
 new-window -n '2-C6' \; \
   select-pane -t 0 \; \
   split-window -h -p 35 \; \
     select-pane -t 0 \; \
     send-keys 'vim' C-m \; \
-    send-keys ':Explore /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
-    send-keys ':lcd /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
+    send-keys ":Explore $HOME" C-m \; \
+    send-keys ":lcd $HOME" C-m \; \
     select-pane -t 1 \; \
-    send-keys 'cd /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
+    send-keys "cd $HOME" C-m \; \
 new-window -n '2-C7' \; \
   select-pane -t 0 \; \
   split-window -h -p 35 \; \
     select-pane -t 0 \; \
     send-keys 'vim' C-m \; \
-    send-keys ':Explore /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
-    send-keys ':lcd /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
+    send-keys ":Explore $HOME" C-m \; \
+    send-keys ":lcd $HOME" C-m \; \
     select-pane -t 1 \; \
-    send-keys 'cd /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
+    send-keys "cd $HOME" C-m \; \
 new-window -n '2-C8' \; \
   select-pane -t 0 \; \
   split-window -h -p 35 \; \
     select-pane -t 0 \; \
     send-keys 'vim' C-m \; \
-    send-keys ':Explore /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
-    send-keys ':lcd /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
+    send-keys ":Explore $HOME" C-m \; \
+    send-keys ":lcd $HOME" C-m \; \
     select-pane -t 1 \; \
-    send-keys 'cd /home/benzro/Documents/LxTerminal_UnixCommands/' C-m \; \
+    send-keys "cd $HOME" C-m \; \
 select-window -t '1-MC' \; \
   select-pane -t 0  \; \
 attach-session -t "$1" \;
