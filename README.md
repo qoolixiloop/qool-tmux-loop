@@ -37,24 +37,23 @@ available in my repository folder: src/tmux-startup
 # Instructions for using tmux (and vim)
 * download tmux (on Ubuntu)
   * $ sudo apt install tmux
-* put my downloaded tmux startup script in a folder (/myfolder/) 
-  in your user home directory (~/) or equivalently (/home/your_user_name/) 
+* put my downloaded tmux startup script into a folder in your user home <br   />
+  directory (~/) or equivalently (/home/your_user_name/) 
   * copy/paste to: ~/myfolder/tmux-startup
-* move to the directory (/myfolder/)
+* move to the directory myfolder
   * $ cd ~/myfolder/tmux-startup
-* run the script with your desired session name mySession
+* run the script with your desired session name mySession <br/>
   (dont forget the dot)
   * $ . tmux-startup mySession
   * $ . ~/myfolder/tmux-startup mySession   # in case you don't like the cd step
-* now you can start additional teminal applications (you will already have some vim's) 
-  (if you don't have it and you use Ubuntu: $ sudo apt install mc)
-  (if you don't have it and you use Ubuntu: $ sudo apt install htop)
-  * $ vim    # if you need another vim 
-    $ mc     # if you need another mc 
-    $ htop   # if you need htop 
+* now you can start additional teminal applications <br/>
+  (you will already have some vim's) 
+  * $ vim    # for another vim 
+  * $ mc     # for another  mc (if you don't have it: $ sudo apt install mc)
+  * $ htop   # if you need htop (if you don't have it: $ sudo apt install htop)
 * to stop the tmux session go to any shell
   * $ tmux -ls
-  * $ tmux kill-session -t <mySession>
+  * $ tmux kill-session -t mySession
 
 ## Other useful tmux commands
 * if you are in a multipane window and want your pane to fill the whole screen
