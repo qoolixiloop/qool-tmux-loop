@@ -16,7 +16,7 @@
 
 # ignore directorynames in ANY directory: 
 # IGNORE:   "../DIRNAME/.." 
-pictures/
+#pictures/
 build/
 
 # ignore filetypes in directoryname:
