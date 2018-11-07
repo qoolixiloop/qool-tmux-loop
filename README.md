@@ -21,7 +21,7 @@
   * this will startup a multiwindow session in a second 
   * you can and will of course adapt it to your individual needs. But be aware
     that the script is sent as a one liner to your shell. Therefore even small
-    syntax errors like e.g. lagging spaces or even trying to comment the code 
+    syntax errors like e.g lagging spaces or even trying to comment the code 
     will not work out.  
 * you will get links to pair programming tools (use tmate, or wemux)
   * this will protect you from insecure solutions you may find on the internet
@@ -37,15 +37,17 @@ available in my repository folder: src/tmux-startup
 # Instructions for using tmux (and vim)
 * download tmux (on Ubuntu)
   * $ sudo apt install tmux
-* put my downloaded tmux startup script in a folder (/afolder) 
-  * copy/paste to: ~/afolder/tmux-startup
-* move to the directory afolder
-  * $ cd ~/afolder/tmux-startup
-* run the script with your desired session name <mySession>
-  * $ . tmux-startup <mySession>
-* now you can start your terminal applications inside the shells in tmux. 
-  (you already see some vim and an mc sessions in your tmux windows)
-  * $ vim    # if you need another vim
+* put my downloaded tmux startup script in a folder (/myfolder/) in your user
+  home directory (~/) or equivalently (/home/your_user_name/) 
+  * copy/paste to: ~/myfolder/tmux-startup
+* move to the directory (/myfolder/)
+  * $ cd ~/myfolder/tmux-startup
+* run the script with your desired session name mySession
+  (dont forget the dot)
+  * $ . tmux-startup mySession
+  * $ . ~/myfolder/tmux-startup mySession   # in case you don't like the cd step
+* now you can start several vim's 
+  * $ vim    # if you need another vim 
     $ mc     # if you need another mc (if you don't have it and you use Ubuntu: $ sudo apt install mc)
     $ htop   # if you need htop (if you don't have it and you use Ubuntu: $ sudo apt install htop)
 * to stop the tmux session go to any shell
