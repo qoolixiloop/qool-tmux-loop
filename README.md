@@ -23,7 +23,7 @@
   * this will startup a multiwindow session in a second 
   * you can and will of course adapt it to your individual needs. <br/> 
     But be aware that the script is sent as a one liner to your shell. <br/> 
-    Therefore even smallsyntax errors like e.g lagging spaces or even <br/>
+    Therefore even small syntax errors like e.g lagging spaces or even <br/>
     trying to comment the code will not work out.  
 * you will get links to pair programming tools (use tmate, or wemux)
   * this will protect you from insecure solutions you may find on the internet
