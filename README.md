@@ -14,20 +14,24 @@
   * but you prefer one single development environment (use vim)
 * because you want to start a pairprogramming session
   * but have no idea on how to do that
+* found anything?
+* :dizzy:
 
 
 ### How qoolixiloop intends to make his friends productive
 * you will get my tmux startup script written in shell code
   * this will startup a multiwindow session in a second 
-  * you can and will of course adapt it to your individual needs. But be aware
-    that the script is sent as a one liner to your shell. Therefore even small
-    syntax errors like e.g lagging spaces or even trying to comment the code 
-    will not work out.  
+  * you can and will of course adapt it to your individual needs. <br/> 
+    But be aware that the script is sent as a one liner to your shell. <br/> 
+    Therefore even smallsyntax errors like e.g lagging spaces or even <br/>
+    trying to comment the code will not work out.  
 * you will get links to pair programming tools (use tmate, or wemux)
   * this will protect you from insecure solutions you may find on the internet
 * you will get links to a simple less secure pairprogramming solution
-  * this will give you an idea on how it works in principle, and how you can
-    mess around with your own ssh server
+  * this will give you an idea on how it works in principle, <br/>
+    and how you can mess around with your own ssh server.
+* like christmas!
+* :sparkling_heart:
 
 
 # Download my tmux startup script
@@ -37,16 +41,19 @@ available in my repository folder: src/tmux-startup
 # Instructions for using tmux (and vim)
 * download tmux (on Ubuntu)
   * $ sudo apt install tmux
-* put my downloaded tmux startup script into a folder in your user home <br   />
+* put my downloaded tmux startup script into a folder in your user home 
+  <br   />
   directory (~/) or equivalently (/home/your_user_name/) 
   * copy/paste to: ~/myfolder/tmux-startup
 * move to the directory myfolder
   * $ cd ~/myfolder/tmux-startup
-* run the script with your desired session name mySession <br/>
+* run the script with your desired session name mySession 
+  <br/>
   (dont forget the dot)
   * $ . tmux-startup mySession
   * $ . ~/myfolder/tmux-startup mySession   # in case you don't like the cd step
-* now you can start additional teminal applications <br/>
+* now you can start additional teminal applications 
+  <br/>
   (you will already have some vim's) 
   * $ vim    # for another vim 
   * $ mc     # for another  mc (if you don't have it: $ sudo apt install mc)
@@ -57,10 +64,12 @@ available in my repository folder: src/tmux-startup
 
 ## Other useful tmux commands
 * if you are in a multipane window and want your pane to fill the whole screen
+  <br/>
   you can toogle with the following key strokes
   * Ctrl-B z
-* in case you accidentally hit Ctrl-z and it shows your shell promt you can go
-  back to the foreground by entering 
+* in case you accidentally hit Ctrl-z and it shows your shell promt 
+  <br/>
+  you can goback to the foreground by entering 
   * $ fg
 
 
