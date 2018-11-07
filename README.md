@@ -37,8 +37,8 @@ available in my repository folder: src/tmux-startup
 # Instructions for using tmux (and vim)
 * download tmux (on Ubuntu)
   * $ sudo apt install tmux
-* put my downloaded tmux startup script in a folder (/myfolder/) in your user
-  home directory (~/) or equivalently (/home/your_user_name/) 
+* put my downloaded tmux startup script in a folder (/myfolder/) 
+  in your user home directory (~/) or equivalently (/home/your_user_name/) 
   * copy/paste to: ~/myfolder/tmux-startup
 * move to the directory (/myfolder/)
   * $ cd ~/myfolder/tmux-startup
@@ -46,10 +46,12 @@ available in my repository folder: src/tmux-startup
   (dont forget the dot)
   * $ . tmux-startup mySession
   * $ . ~/myfolder/tmux-startup mySession   # in case you don't like the cd step
-* now you can start several vim's 
+* now you can start additional teminal applications (you will already have some vim's) 
+  (if you don't have it and you use Ubuntu: $ sudo apt install mc)
+  (if you don't have it and you use Ubuntu: $ sudo apt install htop)
   * $ vim    # if you need another vim 
-    $ mc     # if you need another mc (if you don't have it and you use Ubuntu: $ sudo apt install mc)
-    $ htop   # if you need htop (if you don't have it and you use Ubuntu: $ sudo apt install htop)
+    $ mc     # if you need another mc 
+    $ htop   # if you need htop 
 * to stop the tmux session go to any shell
   * $ tmux -ls
   * $ tmux kill-session -t <mySession>
@@ -85,32 +87,3 @@ available in my repository folder: src/tmux-startup
 
 ------------------------
 qoolixiloop, 7. Nov. 2018
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
