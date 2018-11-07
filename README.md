@@ -21,7 +21,7 @@
   * this will startup a multiwindow session in a second 
   * you can and will of course adapt it to your individual needs. But be aware
     that the script is sent as a one liner to your shell. Therefore even small
-    syntax errors like e.g lagging spaces or even trying to comment the code 
+    syntax errors like e.g. lagging spaces or even trying to comment the code 
     will not work out.  
 * you will get links to pair programming tools (use tmate, or wemux)
   * this will protect you from insecure solutions you may find on the internet
@@ -43,8 +43,11 @@ available in my repository folder: src/tmux-startup
   * $ cd ~/afolder/tmux-startup
 * run the script with your desired session name <mySession>
   * $ . tmux-startup <mySession>
-* now you can start several vim's 
-  * $ vim
+* now you can start your terminal applications inside the shells in tmux. 
+  (you already see some vim and an mc sessions in your tmux windows)
+  * $ vim    # if you need another vim
+    $ mc     # if you need another mc (if you don't have it and you use Ubuntu: $ sudo apt install mc)
+    $ htop   # if you need htop (if you don't have it and you use Ubuntu: $ sudo apt install htop)
 * to stop the tmux session go to any shell
   * $ tmux -ls
   * $ tmux kill-session -t <mySession>
