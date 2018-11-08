@@ -39,36 +39,36 @@
 
 
 # Instructions for using tmux (and vim)
-* download tmux (on Ubuntu)   
-    $ sudo apt install tmux   
-* put my downloaded tmux startup script into a folder in your user home      
-  directory (~/) or equivalently (/home/your_user_name/)   
-    * copy/paste to: ~/myfolder/tmux-startup   
-* move to the directory myfolder   
-    $ cd ~/myfolder/tmux-startup   
-* run the script with your desired session name mySession   
-  (dont forget the dot)   
-    $ . tmux-startup mySession   
-    $ . ~/myfolder/tmux-startup mySession   # in case you don't like the cd step
-* now you can start additional teminal applications   
-  (you will already have some vim's)    
-    $ vim    # for another vim  
-    $ mc     # for another  mc (if you don't have it: $ sudo apt install mc)   
-    $ htop   # if you need htop (if you don't have it: $ sudo apt install htop)   
-* to stop the tmux session go to any shell   
-    $ tmux -ls   
-    $ tmux kill-session -t mySession   
+    * download tmux (on Ubuntu)   
+      $ sudo apt install tmux   
+    * put my downloaded tmux startup script into a folder in your user home      
+      directory (~/) or equivalently (/home/your_user_name/)   
+      * copy/paste to: ~/myfolder/tmux-startup   
+    * move to the directory myfolder   
+      $ cd ~/myfolder/tmux-startup   
+    * run the script with your desired session name mySession   
+      (dont forget the dot)   
+      $ . tmux-startup mySession   
+      $ . ~/myfolder/tmux-startup mySession   # in case you don't like the cd step
+    * now you can start additional teminal applications   
+      (you will already have some vim's)    
+      $ vim    # for another vim  
+      $ mc     # for another  mc (if you don't have it: $ sudo apt install mc)   
+      $ htop   # if you need htop (if you don't have it: $ sudo apt install htop)   
+    * to stop the tmux session go to any shell   
+      $ tmux -ls   
+      $ tmux kill-session -t mySession   
 
 ## Other useful tmux commands
-* if you are in a multipane window and want your pane to fill the whole screen  
-  you can toogle with the following key strokes   
-    * Ctrl-B z  
-* in case you accidentally hit Ctrl-z and it shows your shell promt   
-  you can goback to the foreground by entering   
-    $ fg  
+    * if you are in a multipane window and want your pane to fill the whole screen  
+      you can toogle with the following key strokes   
+      * Ctrl-B z  
+    * in case you accidentally hit Ctrl-z and it shows your shell promt   
+      you can goback to the foreground by entering   
+      $ fg  
 
 # Instruction using tmate (and tmux and vim)
-* download tmate (on Ubuntu)   
+    * download tmate (on Ubuntu)   
       $ sudo apt install tmate   
 
 
