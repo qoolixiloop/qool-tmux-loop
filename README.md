@@ -1,4 +1,4 @@
-# qool-tmux-loop
+<h1 align="center"> qool-tmux-loop </h1>
 
 ## 💖 Welcome Dear Friend!
 > You are visiting the qoolixiloop **tmux** repository. Please read on, if you like to find out, how you can profit from it.  
@@ -187,7 +187,7 @@
 > <details>
 > <summary> 📖 show content about me</summary>
 >
-> :revolving_hearts:
+> :dizzy:
 >
 > ##### Hiring and Collaboration
 > There is a [personal repository][602] dedicated to hiring and collaboration. If you are located in Switzerland this is the place, where you can find some sort of CV and contact information.
@@ -195,61 +195,61 @@
 > ##### Donations 
 > The qoolixiloop repositories will constantly be filled with great content. This service to the general public comes as a huge effort from my side. In case you are a wealthy person or an executive of a big organization, not knowing, where to invest all the money that is pouring in, there is hope on the horizon. Below you will find my lonely and empty bank account, grateful and happy about any kind of attention. 
 >
-> :revolving_hearts:
+> :dizzy:
 >
 > <details>
 > <summary> 📖 show details for a bank transfer </summary>
 >
-> :revolving_hearts:
+> :dizzy:
 >
 > Details for a bank transfer to my account   
 > Informations pour un virement bancaire sur mon compte   
 > Detalles para una transferencia bancaria a mi cuenta   
 > Angaben für eine Überweisungen auf mein Konto   
 >
-> | :revolving_hearts:                  | Details / Information / Detalles / Angaben  
+> | :dizzy:                  | Details / Information / Detalles / Angaben  
 > | :--------------------------- | :--------------------------------------- |   
 > BIC (SWIFT-Code) of my bank | POFICHBEXXX   
 > BIC (SWIFT-Code) de ma banque | POFICHBEXXX   
 > BIC (SWIFT-Code) de mi banco | POFICHBEXXX 
 > BIC (SWIFT-Code) meiner Bank |	POFICHBEXXX   
-> :revolving_hearts: | :revolving_hearts: |
+> :dizzy: | :dizzy: |
 > Name/Adresse of my bank |  PostFinance AG, Mingerstrasse 20, 3030 Bern, Switzerland   
 > Nom et adresse de ma banque | PostFinance AG, Mingerstrasse 20, 3030 Bern, Suisse   
 > Nombre y dirección de mi banco | PostFinance AG, Mingerstrasse 20, 3030 Bern, Suiza  
 > Name/Adresse meiner Bank |  PostFinance AG, Mingerstrasse 20, 3030 Bern, Schweiz   
-> :revolving_hearts: | :revolving_hearts: |
+> :dizzy: | :dizzy: |
 > My account number (IBAN)   |  CH08 0900 0000 8007 4635 1   
 > Mon numéro de compte |  CH08 0900 0000 8007 4635 1   
 > Mi número de cuenta |  CH08 9000 0000 8007 4635 1   
 > Meine Kontonummer (IBAN)   |  CH08 0900 0000 8007 4635 1   
-> :revolving_hearts: | :revolving_hearts: |
+> :dizzy: | :dizzy: |
 > My name and address | Roland Benz, Felsber 2, 8052 Zurich, Switzerland   
 > Mon nom et adresse  | Roland Benz, Felsber 2, 8052 Zurich, Suisse   
 > Mi nombre y dirección | Roland Benz, Felsberg 2, 8052 Zurich, Suiza   
 > Mein Name und Adresse  | Roland Benz, Felsberg 2, 8052 Zürich, Schweiz	 
 >
-> :revolving_hearts:
+> :dizzy:
 > </details>
 >
 > </details>
 
+<p align="center">
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZJSNJNBGL8MVE&source=url" target="_blank">
+  <img src="https://www.paypalobjects.com/en_US/CH/i/btn/btn_donateCC_LG.gif"/>
+</a>  
+</p>
 
 ------------------------
-qoolixiloop 13. Nov. 2018
+qoolixiloop, 13. Nov. 2018  
 
 
 
 
-[1]: https://help.github.com/categories/writing-on-github/
-[2]: https://help.github.com/articles/basic-writing-and-formatting-syntax/
-[3]: https://guides.github.com/features/mastering-markdown/
-[4]: https://daringfireball.net/projects/markdown/
-[5]: https://gist.github.com/rxaviers/7360908
-[6]: https://github.com/joeyespo/grip
-[7]: https://pandoc.org/
+[//]: # (links only needed for 'qool-tmux-loop')
 
-[50]: #-download-my-markdown-files
+
+[//]: # (github.com links of 'Code: README.md' and 'Wiki: Home.md')
 
 [101]: https://github.com/qoolixiloop/qool-helloworld-loop "qool-helloworld-loop"
 [102]: https://github.com/qoolixiloop/qool-helloworld-loop/wiki "qool-helloworld-loop.wiki"
@@ -271,7 +271,6 @@ qoolixiloop 13. Nov. 2018
 [902]: https://github.com/qoolixiloop/qool-linux-loop/wiki "qool-linux-loop/wiki"
 [1001]: https://github.com/qoolixiloop/qool-markdown-loop "qool-markdown-loop"
 [1002]: https://github.com/qoolixiloop/qool-markdown-loop/wiki "qool-markdown-loop/wiki"
-[1003]: https://github.com/qoolixiloop/qool-markdown-loop/wiki/browser-navigation-with-grip-running
 [1101]: https://github.com/qoolixiloop/qool-python-loop "qool-python-loop"
 [1102]: https://github.com/qoolixiloop/qool-python-loop/wiki "qool-python-loop/wiki"
 [1201]: https://github.com/qoolixiloop/qool-springboot-loop "qool-springboot-loop"
@@ -282,4 +281,15 @@ qoolixiloop 13. Nov. 2018
 [1402]: https://github.com/qoolixiloop/qool-vim-loop/wiki "qool-vim-loop/wiki"
 [1501]: https://github.com/qoolixiloop/qool-.vimrc-loop "qool-.vimrc-loop"
 [1502]: https://github.com/qoolixiloop/qool-.vimrc-loop/wiki "qool-.vimrc-loop/wiki"
+
+
+[//]: # (github.com links of all other 'Wiki: pages.md')
+
+[703]: https://github.com/qoolixiloop/qool-git-loop/wiki/a-.gitignore-template
+[704]: https://github.com/qoolixiloop/qool-git-loop/wiki/commands-and-graphical-representation
+[1003]: https://github.com/qoolixiloop/qool-markdown-loop/wiki/browser-navigation-with-grip-running
+[1004]: https://github.com/qoolixiloop/qool-markdown-loop/wiki/add-paypal-button
+[1005]: https://github.com/qoolixiloop/qool-markdown-loop/wiki/add-images
+[1503]: https://github.com/qoolixiloop/qool-.vimrc-loop/wiki/My-.vimrc-configruation-file-explained-in-detail
+
 
