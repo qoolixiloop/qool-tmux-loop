@@ -7,37 +7,40 @@
 
 
 ### ⏳ TL;DR 
-> This site is all about you, getting started with &&& . If you like to find out, what tools and information I prepared for you, then please click on the button below.
+> This site is all about you, getting started with the terminal multiplexer **TMUX**, together with **VIM** and **.VIMRC**, a main component of your new IDE. If you like to find out, what tools and information I prepared for you, then please click on the button below.
 >
 > <details>
 > <summary> 📖  read more... </summary>
 >
 > ⏳
 >
+> #### Word of advice 
+> Tmux is a highly effective and stable terminal multiplexer, which allows you to open and split your windows within one single app. Tmux unfolds its maximum benefit, when it is used together with great terminal applications. If you are looking for a highly efficient IDE, I would suggest, you use it together with Vim, which provides you with an all in one, highly organised IDE, where you can develop your apps simultaneously in different languages and even pair-program. You can open dozens of windows, and within each window, another dozens of tabs with files you are working on simultaneously.  
+> For that reason, I prepared two other repositories with Wiki pages, where you can download my [Vim][1401] together with my [.Vimrc][1501] configuration, which plays an important role in using and personalizing Vim. In a few minutes your new IDE will be up and running. But be warned, it may well be, you never want to leave your computer again.
+>
 > #### Why could you profit from the content of this repository?
-> * Because &&&  
-> but &&&  
->
-> * Because &&&  
-> but &&&  
->
-> * Because &&&  
-> but &&&  
+> * Because you want to work simultanueously on different projects,  
+but you prefer to have your open files highly organized.  
+> * Maybe because you write your code in several computer languages,  
+but you prefer one single development environment.  
+> * Or perhaps because you want to start a pairprogramming session,  
+but have no idea on how to do that.  
 >
 > Did you find anything?  
-> Then please read on. 
->   
+> Then please read on.  
+>
 > ⏳
 >
-> #### How the qoolixiloop repositories intend to make his friends productive
-> * You will get &&&  
-> &&& to become quickly productive.  
->
-> * You will get &&&  
-> &&& .  
->
-> * You will get the links to official reference pages.  
+> #### How qoolixiloop's repositories intend to make his friends productive
+> * You will get my **Tmux Start-up Script** written in shell code.  
+> This will start up a multi-window session in a split of a second. (You may of course adapt it to your individual needs. But be aware, that the script is sent as a one liner to your shell. Therefore, even small syntax errors like e.g. lagging spaces or even trying to comment the code will result in syntax errors.)  
+> * You will get links to the pair programming tools **Tmate** and **Wemux**.  
+> This will protect you from insecure solutions you may find on the internet.  
+> * You will get links to a simple less secure pair programming solution.  
+> This will give you an idea on how it works in principle, and how you could mess around with your own ssh server.
+> * You will get the links to **TMUX** reference pages.  
 > So you won't have to click through your web search engine's top ten search results to get your needed "How to".  
+> * And last but not least, you will get links to my own Wiki pages, where I prepared a [Tmux Cheet-Sheet][1304] and instructions to start a [pair programming session][1303]. Furthermore, I added a Wiki page, in which I explain my [Tmux start-up script][1305].  
 >
 > Does this already sound like Christmas?  
 > Then please read on.  
@@ -46,78 +49,123 @@
 > </details>
 
 
+### 📸 Screenshots of tmux
+> Please click the button below to see two screenshots, showing my IDE solution with Vim and Tmux. I added four bullet points in each picture, with a short explanation, what they are showing.
+>
+> <details>
+> <summary> 📖  read more... </summary>
+>
+> 📸
+>
+> * ![image of tmux with some python code](pictures/tmux_showing_py.png)
+>
+> * ![image of tmux with filemanager mc](pictures/tmux_showing_mc.png)
+>
+> 📸
+>
+> </details>
 
 
-### 🎁 Download my markdown files
-> The files are not yet ready to be shared.  
+### 🎁 Download my tmux start-up script
+> The files are ready to be shared. Please click the button below to get download instructions.  
 >
 > <details>
 > <summary> 📖  show the examples </summary>
 > 🎁
->   
-> 1. **&&&:**   
 >
->    * &&&
+> 1. Go to your download folder (on Linux Ubuntu)  
+>       **$ cd ~/Downloads**  
 >
-> 2. **&&&:** 
+> 2. Clone the repository into your download folder   
+>       **$ git clone https://github.com/qoolixiloop/qool-tmux-loop.git**  
 >
-> 3. **&&&:** 
+> 3. Now you can move my script into your home directory.  
+>       **$ mv src/tmux-startup $HOME/somefolder/**  
+>
+> That's it! In case you already have Tmux installed you are ready to go. To find out just open a shell and type:  
+>       **$ which tmux**  
+>
+> You may now want to go to the next section, where you get instructions on how to [start up and use Tmux][50] and Vim.  
 >
 > 🎁
 > </details>
 
 
-
-
-### 📜 Instructions on how to use .vim and .vimrc
-> The reason why &&&. 
-> Please click the button below. The few steps show, how to install and run &&&. It's easy, five steps and you can start writing &&&
+### 📜 Instructions on how to use Tmux (and Vim)
+> Please click the button below and you will see the instruction on how to install and run Tmux, Vim and Tmate . It's easy, just a few steps and you are ready to start writing your software like a multi-tasking genius.
 >
 > <details>
 > <summary> 📖  show the instructions </summary>
 >
 > 📜
->   
->    * Install &&& on Linux Ubuntu with:  
->         $ sudo apt get  
->    
->    * Move to your folder containing your md files with:  
->         $ cd /my_md_directory/  
->    
->    * Start &&& with:  
->         $ grip my_md_file.md  
->    
->    * Open your file with Vim:  
->         $ vim my_md_file.md  
->    
->    * That's it! 
 >
-> * &&& 
+> * first, download tmux (on Ubuntu)  
+>   **$ sudo apt install tmux**  
+>
+> * If you haven't done it already, you may now want to put my downloaded tmux startup script into a folder in your user home directory.  
+>   **copy/paste to: ~/somefolder/tmux-startup**  
+>
+> * move to the directory myfolder  
+>   **$ cd ~/somefolder/tmux-startup**  
+>
+> * run the script with your desired session name mySession. It doesn't matter just type a name, but do not forget the dot, to source the script.  
+>   **$ . tmux-startup mySession**  
+>   **$ ./tmux-startup mySession**              # in case you made the script executable  
+>   **$ . ~/myfolder/tmux-startup mySession**   # in case you don't like the cd step  
+>
+> * now you can start additional teminal applications  
+>   (you will already have some vim's)  
+>   **$ vim**    # for another vim  
+>   **$ mc**     # for another mc (if you don't have it: $ sudo apt install mc)  
+>   **$ htop**   # if you need htop (if you don't have it: $ sudo apt install htop)  
+>
+> * to stop the tmux session go to any shell  
+>   **$ tmux -ls**  
+>   **$ tmux kill-session -t mySession**  
+>
+> * Install &&& on Linux Ubuntu with:  
+>   **$ sudo apt get**  
+>
+> #### Useful tmux commands
+> * if you are in a multipane window and want your pane to fill the whole screen you can toogle with the following key strokes  
+>   **Ctrl-B z**  
+>
+> * in case you accidentally hit Ctrl-z and it shows your shell prompt, you can go back to the foreground by entering  
+>   **$ fg**  
+>
+> #### Instruction using tmate (and tmux and vim)
+> * download tmate (on Ubuntu)  
+>   **$ sudo apt install tmate**  
+>
+> * That's it!  
 >
 >📜
 </details>
 
 
-
-
 ### 🌎 Links
 > To share the links of web pages, which present their content in a clear and easy to read manner is one of the main objectives of my repositories. There is no need to reinvent the wheel, because most of the time there are already excellent resources out there, where the reader can find the needed information. But often, even with the help of one's preferred search engine, one ends up spending one's time with searching instead of working.  
-> By clicking the button below you will see the links of my top &&& sites for &&&. If you still struggle with the syntax, then you may consider &&& as described [here][&&&].
+> By clicking the button below you will see the links to official web sites. If you struggle with the many options which are described there, you may want to visit my Wiki pages. You will find the links to them at the end of the list.  
 >
 > <details>
 > <summary> 📖  show the links </summary>
 >
 > 🌎
 >
-> | What the link provides ('Ctrl-click' to open in new tab) | Link to website
+> | What the link provides | Link to website ('Ctrl-click' to open in new tab)
 > |:---------------------------------------- | :----------------------------------------| 
-> | &&&         | [&&&][1]  
-> | &&&         | [&&&][2]  
+> | `relevant links to websites:`            |
+> | secure pair programming solution  | [tmate][1]  
+> | secure pair programming solution  | [wemux][2]  
+> | simple and less secure solutions  | [simple but less secure ssh solution tutorial][3]
+> | simple and less secure solution   | [simple but less secure ssh solution][4]
+> | `relavant links to my wiki pages:`        |
+> | how my start-up script works              | [tmux start-up script][1305]
+> | a list of useful commands and key strokes | [tmux cheet sheet][1304]
+> | just enough to get you started            | [pair programming with tmate][1303]
 >
 > 🌎
 > </details>
-
-
 
 
 ### 🗄️ qoolixiloop's repositories
@@ -177,8 +225,6 @@
 >
 > 🗄️
 > </details>
-
-
 
 
 ### 💻 About me
@@ -241,13 +287,18 @@
 </p>
 
 ------------------------
-qoolixiloop, 13. Nov. 2018  
+qoolixiloop, 23. Nov. 2018  
 
 
 
 
 [//]: # (links only needed for 'qool-tmux-loop')
 
+[1]: (https://tmate.io/)
+[2]: (https://github.com/zolrath/wemux)
+[3]: (https://www.hamvocke.com/blog/remote-pair-programming-with-tmux/)
+[4]: (https://gist.github.com/shrayasr/9778db8aabac59eba6b5)
+[50]: #-instructions-on-how-to-use-tmux-(and-vim)
 
 [//]: # (github.com links of 'Code: README.md' and 'Wiki: Home.md')
 
