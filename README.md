@@ -294,11 +294,11 @@ qoolixiloop, 23. Nov. 2018
 
 [//]: # (links only needed for 'qool-tmux-loop')
 
-[1]: (https://tmate.io/)
-[2]: (https://github.com/zolrath/wemux)
-[3]: (https://www.hamvocke.com/blog/remote-pair-programming-with-tmux/)
-[4]: (https://gist.github.com/shrayasr/9778db8aabac59eba6b5)
-[50]: #-instructions-on-how-to-use-tmux-(and-vim)
+[1]: https://tmate.io/
+[2]: https://github.com/zolrath/wemux
+[3]: https://www.hamvocke.com/blog/remote-pair-programming-with-tmux/
+[4]: https://gist.github.com/shrayasr/9778db8aabac59eba6b5
+[50]: #-instructions-on-how-to-use-tmux-and-vim
 
 [//]: # (github.com links of 'Code: README.md' and 'Wiki: Home.md')
 
