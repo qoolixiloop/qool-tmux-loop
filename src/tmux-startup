@@ -1,9 +1,18 @@
 #!/bin/sh
 
-# $ . tmux-default sessionname
+# Run script with:
+# $ . tmux-startup sessionname
+
+# Detach Tmux with:
 # Ctrl-B d
+
+# Ask about running Tmux sessions
 # $ tmux -ls
+
+# Reattach Tmux session
 # $ tmux attach-session -t sessionname
+
+# End Tmux session
 # $ tmux kill-session -t sessionname
 
 tmux new-session -s "$1" -n '1-MC' 'mc' \; \
