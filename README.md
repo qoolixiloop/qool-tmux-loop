@@ -123,8 +123,8 @@ but have no idea on how to do that.
 >   **$ tmux -ls**  
 >   **$ tmux kill-session -t mySession**  
 >
-> * Install &&& on Linux Ubuntu with:  
->   **$ sudo apt get**  
+> * install additional tools on Linux Ubuntu with:  
+>   **$ sudo apt install**  #after running ($ sudo apt update)  
 >
 > #### Useful tmux commands
 > * if you are in a multipane window and want your pane to fill the whole screen you can toogle with the following key strokes  
@@ -170,7 +170,7 @@ but have no idea on how to do that.
 
 ### 🗄️ qoolixiloop's repositories
 >
-> By clicking the button below you will see a table with links to my 15 Code and 15 Wiki repositories as well as a short description of what is already available. They cover a small subset of programming languages I learned during the last 20 or so years. The focus is mainly on free and open source tools within the linux operating system universe.  
+> By clicking the button below you will see a table with links to my 15 Code and 15 Wiki repositories as well as a short description of what is already or will soon be available. They cover a small subset of programming languages I learned during the last 20 or so years. The focus is mainly on free and open source tools within the linux operating system universe.  
 > Because the learning curve for many of those tools and languages I used was steeper than necessary, I decided to provide some of my resources, references and examples, in order to help new learners better understand important topics.  
 >
 > <details>
@@ -186,14 +186,14 @@ but have no idea on how to do that.
 >
 > **C**: Dennis Ritchie the father of Unix also developed C, which was in fact my first programming language. It is very low level compaired to newer languages, like Java or Python, many of which actually are implemented in C. It is clearly part of the low supply world, which means, that even though the language is still very useful for certain tasks, there are not many programmers left, that are able to understand it.  
 >
-> **Linux Tools:** Bash and AWK are old, but still very powerful languages in the Unix/Linux command line world and even though the Linux kernel itself is written in C, many configuration scripts one may come across are written in Bash.  
+> **Linux Tools:** Bash, SED and AWK are old, but still very powerful languages in the Unix/Linux command line world and even though the Linux kernel itself is written in C, many configuration scripts one may come across are written in Bash.  
 > There is already a lot of very good advice about Bash programming available in thick books as well as in form of snippets scattered around specialized blogs and webpages. But it is still hard to get started with. That is why I decided to create a small framework inside a template script, whose code itself is checked by the shellcheck project. The template e.g. contains a few instructions, which make use of a concept used in Python to run the script from within a main() function, which is useful if the script is sourced or executed within another script in order to access its functions.  
-> Furthermore, I provided an extensive example script, in which I cover nearly everything one needs to write stable and reliable scripts. I actually use it, to automate my communication with GitHub. It also lets me do changes on all my GitHub files automatically by providing pattern search and replace, and it uses AWK to parse the script and to automatically print help and documentation text into the shell.  
+> Furthermore, I provided an extensive example script, in which I cover nearly everything one needs to write stable and reliable scripts. I actually use it, to automate my communication with GitHub. It also lets me do changes on all my GitHub files automatically by providing pattern search and replace with SED, and it uses AWK to parse the script and to automatically print help and documentation text into the shell.  
 >
 > | Links to repositories ('Ctrl-click' to open in new tab)         | Contents
 > |:-------------------------------| :----------------------------------------| 
 > [qool-helloworld-loop][101]      | My personal project descriptons
-> [qool-helloworld-loop.wiki][102] (@) | More general topics
+> [qool-helloworld-loop.wiki][102] | More general topics
 > [qool-angular2-loop][201]        | Client side code of strategy game
 > [qool-angular2-loop.wiki][202]   | Comments and language specific resources
 > [qool-awk-loop][301]             | Code snippets
@@ -287,7 +287,7 @@ but have no idea on how to do that.
 </p>
 
 ------------------------
-qoolixiloop, 23. Nov. 2018  
+qoolixiloop, 10. Dec. 2018  
 
 
 
