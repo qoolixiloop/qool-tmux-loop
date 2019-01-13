@@ -1,4 +1,4 @@
-theme: jekyll-theme-midnight
+theme: jekyll-theme-tactile
 markdown: kramdown
 kramdown:
   parse_block_html: true
