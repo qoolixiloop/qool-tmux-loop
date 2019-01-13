@@ -9,7 +9,8 @@
 ### ⏳ TL;DR 
 > This site is all about you, getting started with the terminal multiplexer **TMUX**, together with **VIM** and **.VIMRC**, a main component of your new IDE. If you like to find out, what tools and information I prepared for you, then please click on the button below.
 >
-> <details><summary>📖 read more...        </summary>
+> <details><summary markdown='span'> 📖 read more...
+> </summary>
 >  
 > ⏳
 >
@@ -52,8 +53,8 @@ but have no idea on how to do that.
 ### 📸 Screenshots of tmux
 > Please click the button below to see two screenshots, showing my IDE solution with Vim and Tmux. I added four bullet points in each picture, with a short explanation, what they are showing.
 >
-> <details><summary> 📖  read more... 
-</summary>  
+> <details><summary markdown='span'> 📖 read more...
+> </summary>  
 >
 > 📸
 >
@@ -70,8 +71,8 @@ but have no idea on how to do that.
 > The files are ready to be shared. Please click the button below to get download instructions.  
 >
 > <details>
-> <summary> 📖  show the examples  
->  </summary>  
+> <summary markdown='span'> 📖  show the examples  
+> </summary>  
 >    
 > 🎁
 >
@@ -97,7 +98,7 @@ but have no idea on how to do that.
 > Please click the button below and you will see the instruction on how to install and run Tmux, Vim and Tmate . It's easy, just a few steps and you are ready to start writing your software like a multi-tasking genius.
 >
 > <details>
-> <summary> 📖  show the instructions  
+> <summary markdown='span'> 📖  show the instructions  
 > </summary>  
 >
 > 📜
@@ -152,7 +153,7 @@ but have no idea on how to do that.
 > By clicking the button below you will see the links to official web sites. If you struggle with the many options which are described there, you may want to visit my Wiki pages. You will find the links to them at the end of the list.  
 >
 > <details>
-> <summary> 📖  show the links  
+> <summary markdown='span'> 📖  show the links  
 > </summary>  
 >
 > 🌎
@@ -180,7 +181,7 @@ but have no idea on how to do that.
 > Because the learning curve for many of those tools and languages I used was steeper than necessary, I decided to provide some of my resources, references and examples, in order to help new learners better understand important topics.  
 >
 > <details>
-> <summary> 📖  list of repositories  
+> <summary markdown='span'> 📖  list of repositories  
 > </summary>  
 >
 > 🗄️
@@ -239,10 +240,10 @@ but have no idea on how to do that.
 > My name is Roland Benz, I live in Zurich, Switzerland and decided to dedicate my time and knowledge to some projects on GitHub. By clicking the button below you will get all the necessary information with respect to hiring and donations.
 >
 > <details>
-> <summary> 📖 show content about me  
+> <summary markdown='span'> 📖 show content about me  
 > </summary>
 >
-> :dizzy:
+> 💫
 >
 > ##### Hiring and Collaboration
 > There is a [personal repository][602] dedicated to hiring and collaboration. If you are located in Switzerland this is the place, where you can find some sort of CV and contact information.
@@ -250,42 +251,42 @@ but have no idea on how to do that.
 > ##### Donations 
 > The qoolixiloop repositories will constantly be filled with great content. This service to the general public comes as a huge effort from my side. In case you are a wealthy person or an executive of a big organization, not knowing, where to invest all the money that is pouring in, there is hope on the horizon. Below you will find my lonely and empty bank account, grateful and happy about any kind of attention. 
 >
-> :dizzy:
+> 💫
 >
 > <details>
-> <summary> 📖 show details for a bank transfer  
->  </summary>
+> <summary markdown='span'> 📖 show details for a bank transfer  
+> </summary>
 >
-> :dizzy:
+> 💫
 >
 > Details for a bank transfer to my account   
 > Informations pour un virement bancaire sur mon compte   
 > Detalles para una transferencia bancaria a mi cuenta   
 > Angaben für eine Überweisungen auf mein Konto   
 >
-> | :dizzy:                  | Details / Information / Detalles / Angaben  
+> | 💫                  | Details / Information / Detalles / Angaben  
 > | :--------------------------- | :--------------------------------------- |   
 > BIC (SWIFT-Code) of my bank | POFICHBEXXX   
 > BIC (SWIFT-Code) de ma banque | POFICHBEXXX   
 > BIC (SWIFT-Code) de mi banco | POFICHBEXXX 
 > BIC (SWIFT-Code) meiner Bank |	POFICHBEXXX   
-> :dizzy: | :dizzy: |
+> 💫 | 💫 |
 > Name/Adresse of my bank |  PostFinance AG, Mingerstrasse 20, 3030 Bern, Switzerland   
 > Nom et adresse de ma banque | PostFinance AG, Mingerstrasse 20, 3030 Bern, Suisse   
 > Nombre y dirección de mi banco | PostFinance AG, Mingerstrasse 20, 3030 Bern, Suiza  
 > Name/Adresse meiner Bank |  PostFinance AG, Mingerstrasse 20, 3030 Bern, Schweiz   
-> :dizzy: | :dizzy: |
+> 💫 | 💫 |
 > My account number (IBAN)   |  CH08 0900 0000 8007 4635 1   
 > Mon numéro de compte |  CH08 0900 0000 8007 4635 1   
 > Mi número de cuenta |  CH08 9000 0000 8007 4635 1   
 > Meine Kontonummer (IBAN)   |  CH08 0900 0000 8007 4635 1   
-> :dizzy: | :dizzy: |
+> 💫 | 💫 |
 > My name and address | Roland Benz, Felsber 2, 8052 Zurich, Switzerland   
 > Mon nom et adresse  | Roland Benz, Felsber 2, 8052 Zurich, Suisse   
 > Mi nombre y dirección | Roland Benz, Felsberg 2, 8052 Zurich, Suiza   
 > Mein Name und Adresse  | Roland Benz, Felsberg 2, 8052 Zürich, Schweiz	 
 >
-> :dizzy:  
+> 💫  
 >    
 > </details>  
 >  
