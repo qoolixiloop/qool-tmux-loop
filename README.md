@@ -9,8 +9,7 @@
 ### ⏳ TL;DR 
 > This site is all about you, getting started with the terminal multiplexer **TMUX**, together with **VIM** and **.VIMRC**, a main component of your new IDE. If you like to find out, what tools and information I prepared for you, then please click on the button below.
 >
-> <details>
-> <summary> 📖  read more...
+> <details><summary> 📖  read more...
 > </summary>
 >  
 > ⏳
