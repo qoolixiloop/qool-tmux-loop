@@ -9,8 +9,10 @@
 ### ⏳ TL;DR 
 > This site is all about you, getting started with the terminal multiplexer **TMUX**, together with **VIM** and **.VIMRC**, a main component of your new IDE. If you like to find out, what tools and information I prepared for you, then please click on the button below.
 >
-> <details>
-> <summary> 📖  read more... </summary>
+> <details>  
+> <summary> 
+>  📖  read more... 
+> </summary>  
 >
 > ⏳
 >
@@ -46,14 +48,17 @@ but have no idea on how to do that.
 > Then please read on.  
 >
 > ⏳
+>    
 > </details>
 
 
 ### 📸 Screenshots of tmux
 > Please click the button below to see two screenshots, showing my IDE solution with Vim and Tmux. I added four bullet points in each picture, with a short explanation, what they are showing.
 >
-> <details>
-> <summary> 📖  read more... </summary>
+> <details>  
+> <summary>   
+>  📖  read more... 
+>  </summary>  
 >
 > 📸
 >
@@ -69,8 +74,11 @@ but have no idea on how to do that.
 ### 🎁 Download my tmux start-up script
 > The files are ready to be shared. Please click the button below to get download instructions.  
 >
-> <details>
-> <summary> 📖  show the examples </summary>
+> <details>  
+> <summary> 
+>  📖  show the examples  
+>  </summary>  
+>    
 > 🎁
 >
 > 1. Go to your download folder (on Linux Ubuntu)  
@@ -94,8 +102,10 @@ but have no idea on how to do that.
 ### 📜 Instructions on how to use Tmux (and Vim)
 > Please click the button below and you will see the instruction on how to install and run Tmux, Vim and Tmate . It's easy, just a few steps and you are ready to start writing your software like a multi-tasking genius.
 >
-> <details>
-> <summary> 📖  show the instructions </summary>
+> <details>  
+> <summary>  
+>  📖  show the instructions  
+> </summary>  
 >
 > 📜
 >
@@ -140,6 +150,7 @@ but have no idea on how to do that.
 > * That's it!  
 >
 > 📜
+>  
 > </details>
 
 
@@ -147,8 +158,10 @@ but have no idea on how to do that.
 > To share the links of web pages, which present their content in a clear and easy to read manner is one of the main objectives of my repositories. There is no need to reinvent the wheel, because most of the time there are already excellent resources out there, where the reader can find the needed information. But often, even with the help of one's preferred search engine, one ends up spending one's time with searching instead of working.  
 > By clicking the button below you will see the links to official web sites. If you struggle with the many options which are described there, you may want to visit my Wiki pages. You will find the links to them at the end of the list.  
 >
-> <details>
-> <summary> 📖  show the links </summary>
+> <details>  
+> <summary>  
+>  📖  show the links  
+> </summary>  
 >
 > 🌎
 >
@@ -165,6 +178,7 @@ but have no idea on how to do that.
 > | just enough to get you started            | [pair programming with tmate][1303]
 >
 > 🌎
+>    
 > </details>
 
 
@@ -173,8 +187,10 @@ but have no idea on how to do that.
 > By clicking the button below you will see a table with links to my 15 Code and 15 Wiki repositories as well as a short description of what is already or will soon be available. They cover a small subset of programming languages I learned during the last 20 or so years. The focus is mainly on free and open source tools within the linux operating system universe.  
 > Because the learning curve for many of those tools and languages I used was steeper than necessary, I decided to provide some of my resources, references and examples, in order to help new learners better understand important topics.  
 >
-> <details>
-> <summary> 📖  list of repositories </summary>
+> <details>  
+> <summary>  
+>  📖  list of repositories  
+> </summary>  
 >
 > 🗄️
 >
@@ -224,14 +240,17 @@ but have no idea on how to do that.
 > [qool-.vimrc-loop.wiki][1502]    | how it works
 >
 > 🗄️
+>  
 > </details>
 
 
 ### 💻 About me
 > My name is Roland Benz, I live in Zurich, Switzerland and decided to dedicate my time and knowledge to some projects on GitHub. By clicking the button below you will get all the necessary information with respect to hiring and donations.
 >
-> <details>
-> <summary> 📖 show content about me</summary>
+> <details>  
+> <summary>  
+>  📖 show content about me  
+> </summary>
 >
 > :dizzy:
 >
@@ -243,8 +262,10 @@ but have no idea on how to do that.
 >
 > :dizzy:
 >
-> <details>
-> <summary> 📖 show details for a bank transfer </summary>
+> <details>  
+> <summary>  
+>  📖 show details for a bank transfer  
+>  </summary>
 >
 > :dizzy:
 >
@@ -275,10 +296,11 @@ but have no idea on how to do that.
 > Mi nombre y dirección | Roland Benz, Felsberg 2, 8052 Zurich, Suiza   
 > Mein Name und Adresse  | Roland Benz, Felsberg 2, 8052 Zürich, Schweiz	 
 >
-> :dizzy:
-> </details>
->
-> </details>
+> :dizzy:  
+>    
+> </details>  
+>  
+> </details>  
 
 <p align="center">
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZJSNJNBGL8MVE&source=url" target="_blank">
@@ -292,7 +314,7 @@ qoolixiloop, 10. Dec. 2018
 
 
 
-[//]: # (links only needed for 'qool-tmux-loop')
+/[//]: # (links only needed for 'qool-tmux-loop')
 
 [1]: https://tmate.io/
 [2]: https://github.com/zolrath/wemux
@@ -300,7 +322,7 @@ qoolixiloop, 10. Dec. 2018
 [4]: https://gist.github.com/shrayasr/9778db8aabac59eba6b5
 [50]: #-instructions-on-how-to-use-tmux-and-vim
 
-[//]: # (github.com links of 'Code: README.md' and 'Wiki: Home.md')
+/[//]: # (github.com links of 'Code: README.md' and 'Wiki: Home.md')
 
 [101]: https://github.com/qoolixiloop/qool-helloworld-loop "qool-helloworld-loop"
 [102]: https://github.com/qoolixiloop/qool-helloworld-loop/wiki "qool-helloworld-loop.wiki"
@@ -334,7 +356,7 @@ qoolixiloop, 10. Dec. 2018
 [1502]: https://github.com/qoolixiloop/qool-.vimrc-loop/wiki "qool-.vimrc-loop/wiki"
 
 
-[//]: # (github.com links of all other 'Wiki: pages.md')
+/[//]: # (github.com links of all other 'Wiki: pages.md')
 
 [303]: https://github.com/qoolixiloop/qool-awk-loop/wiki/awk-cheet-sheet
 [304]: https://github.com/qoolixiloop/qool-awk-loop/wiki/bash-script-with-awk-to-learn-from-example
